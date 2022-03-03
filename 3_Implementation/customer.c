@@ -97,7 +97,7 @@
 		    sl=sizeof(customer);
 		    ts=tl/sl;
 		    do{
-			printf("\nchoose customer number:");
+			printf("\nChoose customer number:");
 			scanf("%d",&n);
 			if(n<=0 || n>ts)
 			printf("\nenter correct\n");
@@ -106,7 +106,7 @@
 			    fread(&customer,sl,1,fp);
 			    output();
 			}
-			printf("\n\nagain?(y/n)");
+			printf("\n\nAgain?(y/n)");
 			ch=getche();
 		    }while(ch=='y');
 		    fclose(fp);
@@ -121,7 +121,7 @@
 		    n=customer.number;
 
 		    do{
-			printf("\nenter the name:");
+			printf("\nEnter the name:");
 			scanf("%s",nam);
 			fseek(fp,0,SEEK_SET);
 			for(i=1;i<=n;i++)
@@ -166,9 +166,6 @@
 		 break;
 	      case 'O':
 		 printf("OVERDUE\n\n");
-		 break;
-	      case 'D':
-		 printf("DELINQUENT\n\n");
 		 break;
 	      default:
 		 printf("ERROR\\n\n");
