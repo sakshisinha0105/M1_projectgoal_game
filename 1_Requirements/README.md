@@ -12,3 +12,5 @@
 |LLR2|Details for billing shall be in  arranged format|
 |LLR3|pressing "n" can take the process to end|
 
+## **SWOT**
+![SWOT](https://user-images.githubusercontent.com/98824269/156660718-dde5a402-8d42-432f-bf9e-2e0736d17f58.png)
