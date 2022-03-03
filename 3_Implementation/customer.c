@@ -167,6 +167,9 @@
 	      case 'O':
 		 printf("OVERDUE\n\n");
 		 break;
+		  case 'D':
+		 cprintf("DELINQUENT\n\n");
+		 break;
 	      default:
 		 printf("ERROR\\n\n");
 	      }
