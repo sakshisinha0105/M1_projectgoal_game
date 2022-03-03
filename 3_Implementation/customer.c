@@ -4,7 +4,6 @@
 	{
 	  int i,n;
 	  char ch;
-	  clrscr();
 
 	  printf("   CUSTOMER BILLING SYSTEM:\n\n");
 	  printf("===============================\n");
