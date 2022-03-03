@@ -9,3 +9,6 @@
 |LL|Detail|
 |----|-----|
 |LLR1|It shall run one after the other|
+|LLR2|Details for billing shall be in  arranged format|
+|LLR3|pressing "n" can take the process to end|
+
