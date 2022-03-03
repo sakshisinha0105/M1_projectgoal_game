@@ -171,7 +171,7 @@
 		 cprintf("DELINQUENT\n\n");
 		 break;
 	      default:
-		 printf("ERROR\\n\n");
+		 printf("ERROR\n\n");
 	      }
 	      return;
 	   }
